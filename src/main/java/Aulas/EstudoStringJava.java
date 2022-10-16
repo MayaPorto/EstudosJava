@@ -1,7 +1,9 @@
+package Aulas;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class EstudoStrings {
+class EstudoStrings {
     public static void main(String[] args) {
         // Strings são cadeias de caracteres
         // "José" -> J = 0, o = 1, s = 2, é = 3

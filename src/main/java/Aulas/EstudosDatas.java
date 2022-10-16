@@ -1,6 +1,8 @@
+package Aulas;
+
 import java.time.LocalDate;
 
-public class EstudoDatas {
+public class EstudosDatas {
     public static void main(String[] args) {
         // dia - mês - ano
         // LocalDate armazena qualquer data (dia, mês, ano)

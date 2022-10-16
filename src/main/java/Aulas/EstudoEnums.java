@@ -1,5 +1,5 @@
-
-    //Enums são estruturas com constantes definidas
+package Aulas;
+//Enums são estruturas com constantes definidas
     //dias da semana, turnos do dia, estações, feriados...
 
     public class EstudoEnums {

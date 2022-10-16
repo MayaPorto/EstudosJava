@@ -1,11 +1,12 @@
+package Aulas;
+
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class EstudoArray {
+public class EstudosListas {
     public static void main (String[] args){
         ArrayList<String> nomes = new ArrayList<>(); //entre <> não há como suportar tipos primitivos
         ArrayList<Integer> numeros = new ArrayList<>(); //numeros
-
         System.out.println(numeros);
         //impresso array vazio
         numeros.add(20);
