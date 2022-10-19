@@ -54,4 +54,11 @@ public class Pessoa {
         System.out.println("Estou comendo " + comida);
         this.peso += 1.5;
     }
+    void cumprimentar(Pessoa pessoa) {
+        this.dizOla();
+        pessoa.dizOla();
+
+
+    }
+
 }

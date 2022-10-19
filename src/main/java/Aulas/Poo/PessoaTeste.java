@@ -34,5 +34,18 @@ public class PessoaTeste {
         System.out.println(imcPessoa4);
 
         pessoa4.comer("Batata");
+
+        // Exemplo pessoas
+        Pessoa pedro = new Pessoa("Pedro", "José", 29, 1.8, 80);
+
+        Pessoa joao = new Pessoa("João", "Carlos", 30, 1.75, 90);
+        System.out.println("================");
+
+        pedro.cumprimentar(joao);
+        pedro.cumprimentar(joao);
+        pedro.comer("Batata");
     }
+
 }
+
+
