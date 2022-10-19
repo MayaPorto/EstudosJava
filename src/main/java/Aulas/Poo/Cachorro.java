@@ -1,11 +1,12 @@
 package Aulas.Poo;
 /*//herdar as propriedades e métodos de pet*/
+//fazer a classe de umj gato
 public class Cachorro extends Pet {
-    private String comidaFavorita;
-    private String raca;
+    private String comidaFavorita;//o que é novo em relação ao pet
+    private String raca;//o que é novo em relação ao pet
     //criar constructor
     public Cachorro(String nome, int idade, double peso, String comidaFavorita, String raca) {//pegar os valores da super classe
-        super(nome, idade, peso); //tem que chamar a referencia da super classePet e trazer para subclasse
+        super(nome, idade, peso); //se colocarrex,1,25.0 todos vão ter o mesmo dado. tem que chamar a referencia da super classePet e trazer para subclasse
         this.comidaFavorita = comidaFavorita;
         this.raca = raca;
     }
